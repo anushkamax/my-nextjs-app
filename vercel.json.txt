@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/app/page"
+    }
+  ]
+}
+```
+eof
+
+4.  ඉන්පසු, ඔබගේ **Terminal** එකේ පහත විධානයන් පිළිවෙලින් ක්‍රියාත්මක කරන්න.
+
+```bash
+git add .
+git commit -m "Added vercel.json configuration file"
+git push -u origin master
